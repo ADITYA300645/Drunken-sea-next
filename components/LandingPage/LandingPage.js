@@ -3,7 +3,11 @@ import Styles from './LandingPage.module.css'
 
 function LandingPage() {
   return (
-    <div className={Styles.example}>Landing PAge</div>
+    <div className={Styles.bgCard}>Landing PAge
+    <div className={Styles.innerbgCard}>
+      <div className={Styles.searchicon}></div>
+    </div>
+    </div>
   )
 }
 
