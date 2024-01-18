@@ -23,11 +23,11 @@ function Appbar() {
                 </div></div>
             </div>
             <div className="[&>*]:mx-4">
-                <Link href="/login">Collections</Link>
-                <Link href="/login">Celebration</Link>
-                <Link href="/login">Explore</Link>
-                <Link href="/login">Branches</Link>
-                <Link href="/login">Account</Link>
+                <Link href="/Collections">Collections</Link>
+                <Link href="/Celebration">Celebration</Link>
+                <Link href="/Explore">Explore</Link>
+                <Link href="/Branches">Branches</Link>
+                <Link href="/Account">Account</Link>
             </div>
         </div>
         
