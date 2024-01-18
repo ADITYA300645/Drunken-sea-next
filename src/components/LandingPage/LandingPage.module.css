@@ -18,6 +18,28 @@
   margin: auto auto;
   padding: 10px 20px;
 }
+.icon{
+  flex: 1;
+  background-color: rgb(255, 254, 254);
+  height: 90%;
+  width: 10%;
+ 
+ 
+}
+.innerIcon{
+  height: 28px;
+  width: 28px;
+  border: solid rgb(166, 149, 149) 3px;
+  border-radius: 50%;
+  padding: 2px;
+}
+.inner2Icon{
+  height: 18px;
+  width: 18px;
+  
+  border: solid rgb(195, 195, 195) 3px;
+  border-radius: 50%;
+}
 .innerbgCard{
   flex: 15;
   border-color: rgb(204, 198, 198);
@@ -25,9 +47,6 @@
   border-right: 0.5px;
   padding-left: 12px;
   border-style: solid;
-}
-.icon{
-  flex: 1;
 }
 .btn{
   flex: 2;
