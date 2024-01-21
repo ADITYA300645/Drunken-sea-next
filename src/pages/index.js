@@ -10,10 +10,17 @@ import LocationBased from "@/components/Recommendations/LocationBased/LocationBa
 import AboutUs from "@/components/About Us/AboutUs";
 import Section from "@/components/Sections/Section";
 
+
+import { Poppins } from "next/font/google";
+
+
 export default function Home() {
+
+    const poppins = Poppins({ subsets: ["latin"], weight: "400" });
+
     const dispatch = useDispatch();
     return (
-        <main>
+        <main className={poppins.className}>
             <Appbar></Appbar>
             <LandingPage></LandingPage>
             <Section
