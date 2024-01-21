@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useRef } from "react";
 import WineCard from "../WineCard/WineCard";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import Image from "next/image";
@@ -76,16 +76,17 @@ function Section({ tagline, discription }) {
                 "https://cdn.pixabay.com/photo/2018/01/19/17/44/wine-3092944_1280.jpg",
         },
     ];
+
     return (
-        <div className="pl-4 pr-1 my-4 relative">
+        <div className="pl-4 pr-1 my-4 relative ">
             <h2 className="text-3xl font-bold text mt-6 mx-3">{tagline}</h2>
             <h3 className="text-sm text mb-5 mx-3">{discription}</h3>
-            <div className="flex overflow-x-auto snap-x">
+            <div className="flex overflow-x-auto snap-x scrollbar-hide" >
                 {arr.map((item) => (
                     <WineCard
                         imageUrl={item.imageUrl}
                         WineName={item.WineName}
-                        WineType={item.WineType}
+                        WineType={ item.WineType}
                         Price={item.Price}
                     />
                 ))}
