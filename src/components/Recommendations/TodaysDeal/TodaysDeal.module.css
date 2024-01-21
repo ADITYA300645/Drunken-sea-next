@@ -1,0 +1,85 @@
+.todaysDeals{
+    width: 85%;
+    height: 700px;
+    background-color:#D9D9D9;
+    border-radius: 20px;
+    margin: auto auto;
+    padding: 20px;
+}
+.content{
+    width: 50%;
+    height: 10%;
+    margin: 10px 0px 50px;
+    display: flex;
+    flex-direction: column;
+}
+.para1{
+color: #000;
+font-size: 28px;
+font-style: normal;
+font-weight: 500;
+line-height: normal;
+}
+.para2{
+color: #000;
+text-align: center;
+font-size: 15px;
+font-style: normal;
+font-weight: 500;
+line-height: normal;
+}
+.productContainer{
+    height: 80%;
+    width: 95%;
+   
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+
+}
+.product{
+    height:90%;
+    width: 30%;
+  
+}
+.productImage{
+    height: 85%;
+    width: 100%;
+    background-image: url(https://cdn.pixabay.com/photo/2021/05/20/08/37/bottle-6268070_1280.jpg);
+    background-position: center;
+    background-size: cover;
+    border-radius: 15px;
+}
+.productDescription{
+    height: 10%;
+    width: 100%;
+   
+    display: flex;
+    flex-direction: row;
+}
+.Discount{
+    height: 70%;
+    width: 60%;
+    background-color: red;
+    margin: 5px auto auto 8%;
+    color: white;
+    font-size: 15px;
+}
+.Rate{
+    width: 40%;
+    height: 70%;
+    padding: 3px;
+}
+.price{
+    text-decoration: line-through;
+    margin-left: 10px;
+    color: red;
+
+}
+.originalRate{
+    margin-left: 10px;
+  
+    color: rgb(19, 217, 19);
+}
+/* .product{
+} */
