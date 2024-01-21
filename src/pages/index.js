@@ -13,10 +13,10 @@ import Section from "@/components/Sections/Section";
 
 import { Poppins } from "next/font/google";
 
+const poppins = Poppins({ subsets: ["latin"], weight: "400" });
 
 export default function Home() {
 
-    const poppins = Poppins({ subsets: ["latin"], weight: "400" });
 
     const dispatch = useDispatch();
     return (
