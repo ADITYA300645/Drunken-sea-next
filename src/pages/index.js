@@ -17,6 +17,7 @@ export default function Home() {
             >
                 CLICK
             </button>
+            <div className="h-96 w-max bg-red-500"/>
         </main>
     );
 }
