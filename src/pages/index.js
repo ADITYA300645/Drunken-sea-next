@@ -12,10 +12,10 @@ export default function Home() {
             <Appbar></Appbar>
             <LandingPage></LandingPage>
             <button
-                className="fixed bottom-6 right-6"
+                className="fixed bottom-6 right-6 bg-slate-600 px-4 py-2 rounded-xl text-white"
                 onClick={()=>dispatch(login())}
             >
-                CLICK
+                Explore
             </button>
             <div className="h-96 w-max bg-red-500"/>
         </main>
