@@ -17,8 +17,6 @@ export default function Home() {
         <main>
             <Appbar></Appbar>
             <LandingPage></LandingPage>
-            <UserBased/>
-            <Trending/>
             <Categorical/>
             <TodaysDeal/>
             <LocationBased/>
